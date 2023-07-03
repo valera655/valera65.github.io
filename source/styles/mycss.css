@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins&display=swap);
+body {
+    font-family: Poppins ,serif;
+    background: linear-gradient(90deg, #092FFB 0%, #0A0A0A 88%);
+}
+p{
+    color: aquamarine;
+}
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: aliceblue;
+}
+
+.navbar-brand img {
+    width: 35px;
+}
+
+.navbar-toggler {
+    background-color: rgb(68, 65, 65);
+}
+
+.side-bar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #092FFB 0%, #0A0A0A 88%);
+}
+.card{
+    color: aquamarine;
+    background: linear-gradient(270deg, #092FFB 0%, #0A0A0A 88%);
+}
+.card a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.slide-text{
+    color:aquamarine;
+    margin:auto auto ;
+}
+@media (max-width:755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+.footer-text{
+    color:aquamarine;
+    margin:auto auto ;
+}
+footer,.btn-outline-primary{
+    background: linear-gradient(270deg, #092FFB 0%, #0A0A0A 88%);
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-anim{
+    animation: call 2s ease 0s infinite normal forwards;
+}
+@keyframes call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
